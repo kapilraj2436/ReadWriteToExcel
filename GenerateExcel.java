@@ -30,16 +30,16 @@ public class GenerateExcel
          {
     		pojo=new GenerateExcelPojo();
  	        System.out.println(pojo);
- 	        pojo.setAgent("Sut2");
- 	        pojo.setAmount("500");
- 	        pojo.setBene_Address("Dwarka sector 7");
- 	        pojo.setBene_ID("Bene ID");
- 	        pojo.setBene_Name_1("Kapilraj");
+ 	        pojo.setAgent("Agent1");
+ 	        pojo.setAmount("20000");
+ 	        pojo.setBene_Address("23,Vaishnav colony, Indore");
+ 	        pojo.setBene_ID("ID Number");
+ 	        pojo.setBene_Name_1("Kapilraj chouhan");
  	        pojo.setBene_Phone("885588588");
  	        pojo.setCurrency("USD");
  	        pojo.setDate("12/1/2014");
- 	        pojo.setSender_Name("Sumit Rawat");
- 	        pojo.setInvoice_Number("457411256");     
+ 	        pojo.setSender_Name("Niyat Khan");
+ 	        pojo.setInvoice_Number("7897411256");     
  	        
  	       File file =new File("D:/eXCELfILE.xls");
  	 
